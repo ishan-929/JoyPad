@@ -1488,6 +1488,30 @@
 	)
 	(global_label "GND"
 		(shape input)
+		(at 88.9 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11d28325-4ed0-4aa4-9a42-f142b119bc49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.0443 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
 		(at 66.04 46.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1547,6 +1571,30 @@
 		(uuid "194f98c0-1848-4427-8828-d9a5e782aac5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.8943 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D9"
+		(shape input)
+		(at 66.04 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27ea2052-1613-48c8-81ff-1936c7b7bfcd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.5047 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1630,30 +1678,6 @@
 			)
 		)
 	)
-	(global_label "RNSWA"
-		(shape input)
-		(at 88.9 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a536e85-2274-42aa-91f7-fd9ca9358193")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.5648 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RNB"
 		(shape input)
 		(at 109.22 74.93 0)
@@ -1678,7 +1702,7 @@
 			)
 		)
 	)
-	(global_label "Row 2"
+	(global_label "Row 1"
 		(shape input)
 		(at 25.4 46.99 180)
 		(fields_autoplaced yes)
@@ -1822,31 +1846,7 @@
 			)
 		)
 	)
-	(global_label "RNSWB"
-		(shape input)
-		(at 88.9 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1ef54c0-6d21-4621-8aab-541568792ad8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.3834 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Row 2"
+	(global_label "Row 1"
 		(shape input)
 		(at 83.82 106.68 0)
 		(fields_autoplaced yes)
@@ -1931,6 +1931,30 @@
 		(uuid "c6f83cd7-8f3f-45c0-a1cd-1871f65d0249")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.9072 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "D9"
+		(shape input)
+		(at 88.9 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5a4ee79-a981-4913-b636-2ae373b4c13c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.4353 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2073,7 +2097,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 71.12 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -2156,7 +2180,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 78.74 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -2236,7 +2260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 100.33 82.804 0)
 			(hide yes)
 			(show_name no)
@@ -2328,7 +2352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 71.12 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -2499,7 +2523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 78.74 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -2581,7 +2605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2664,7 +2688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 63.5 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -2744,7 +2768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MCU:Seeed_XIAO_RP2040"
 			(at 27.94 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2862,7 +2886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 68.58 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2944,7 +2968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 60.96 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3026,7 +3050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 60.96 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3108,7 +3132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 68.58 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3191,7 +3215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 63.5 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3273,7 +3297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 76.2 86.36 0)
 			(hide yes)
 			(show_name no)
