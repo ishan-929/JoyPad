@@ -1,0 +1,6 @@
+*-backups/
+_autosave-*
+~*.lck
+*.tmp
+.DS_Store
+Thumbs.db
